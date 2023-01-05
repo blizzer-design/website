@@ -1,0 +1,32 @@
+<div>Ärzte</div>
+- Alle infos
+- Integration buchungs
+
+<div>Friseure</div>
+- Alle infos
+- Integration buchungs
+- Kalender
+
+<div>Selbstständige</div>
+- Alle infos
+- Integration buchungs
+- Newsletter
+- CTA
+
+<div>Vereine</div>
+- Alle infos
+- Integration buchungs
+- Tabllenen
+
+<div>Kirchengemeinden</div>
+- Alle infos
+- Integration Kalender
+- Verwaltung Gottesdienstordnung
+
+<div>Städte</div>
+- Erreichen der Bürger
+- Integration Tools
+
+<div>Start-ups</div>
+- Newsletter
+- CTA

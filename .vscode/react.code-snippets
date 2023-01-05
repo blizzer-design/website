@@ -1,0 +1,49 @@
+{
+  "Insert FunctionComponent With Parameters": {
+    "scope": "typescriptreact",
+    "prefix": ["cmp"],
+    "body": [
+      "import React, { type FunctionComponent } from \"react\";",
+      "",
+      "export type $1Props = {",
+      "    ",
+      "}",
+      "",
+      "const $1: FunctionComponent<$1Props> = ({}) => {",
+      "  return <>$0</>",
+      "}",
+      "",
+      "export default $1"
+    ],
+    "description": ""
+  },
+  "Insert FunctionComponent Without Parameters": {
+    "scope": "typescriptreact",
+    "prefix": ["cmpnp"],
+    "body": [
+      "import React, { type FunctionComponent } from \"react\";",
+      "",
+      "const $1: FunctionComponent = () => {",
+      "  return <>$0</>",
+      "}",
+      "",
+      "export default $1"
+    ],
+    "description": ""
+  },
+  "Insert Page": {
+    "scope": "typescriptreact",
+    "prefix": ["pg"],
+    "body": [
+      "import React from 'react';",
+      "import { type NextPage } from 'next'",
+      "",
+      "const $1: NextPage = () => {",
+      "  return <>$0</>",
+      "}",
+      "",
+      "export default $1"
+    ],
+    "description": ""
+  }
+}

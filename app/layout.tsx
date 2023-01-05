@@ -1,18 +1,32 @@
-import './globals.css'
+"use client";
+
+import "./globals.css";
+import "aos/dist/aos.css";
+
+import { Roboto } from "@next/font/google";
+import AOS from "aos";
+
+import { useEffect } from "react";
+import Footer from "../components/footer/footer";
+
+const roboto = Roboto({ weight: ["500", "700", "900"] });
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+    <html lang="de">
       <head />
-      <body>{children}</body>
+      <body className={roboto.className}>
+        {children}
+        <Footer />
+      </body>
     </html>
-  )
+  );
 }
