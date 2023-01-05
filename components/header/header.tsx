@@ -14,7 +14,7 @@ const Header: FunctionComponent<HeaderProps> = ({}) => {
         <BlizzerLogoType />
         <h1 className="leading-10 mb-12">
           {/* <span className="text-3xl font-black">Blizzer</span> <br /> */}
-          <span className="text-5xl lg:text-8xl font-black">
+          <span className="text-4xl lg:text-8xl font-black">
             Einfach. Geile. <br />
             <TypeIt
               getBeforeInit={(instance) => {

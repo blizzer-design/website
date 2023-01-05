@@ -25,7 +25,7 @@ export default function Home() {
           <section className="py-32">
             <Container>
               <div
-                className="rounded-2xl bg-blizzer px-16 py-32"
+                className="rounded-2xl bg-blizzer px-10 lg:px-16 py-20 lg:py-32"
                 data-aos="fade-up"
               >
                 <div className="flex justify-center" data-aos="fade-up">

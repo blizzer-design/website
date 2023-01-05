@@ -22,7 +22,7 @@ const Packages: FunctionComponent<PackagesProps> = ({ packages }) => {
     <div className="grid lg:grid-cols-3 sm:max-w-full md:max-w-[50%] lg:max-w-full mx-auto">
       <div
         className="bg-gray-50 border border-gray-300 lg:border-r-0 rounded-xl lg:rounded-r-none lg:rounded-l-xl mt-8 mb-8 shadow-xl z-10"
-        data-aos="fade-right"
+        data-aos="fade-up"
         data-aos-delay="300"
       >
         <div className="text-center bg-white rounded-t-xl px-8 py-12">
@@ -71,7 +71,7 @@ const Packages: FunctionComponent<PackagesProps> = ({ packages }) => {
       </div>
       <div
         className="bg-gray-50 border border-gray-300 lg:border-l-0 rounded-xl lg:rounded-l-none lg:rounded-r-xl mt-8 mb-8 shadow-xl z-10"
-        data-aos="fade-left"
+        data-aos="fade-up"
         data-aos-delay="300"
       >
         <div className="text-center bg-white rounded-t-xl lg:rounded-tl-none lg:rounded-tr-xl px-8 py-12">

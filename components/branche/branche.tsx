@@ -20,7 +20,7 @@ const Branche: FunctionComponent<BrancheProps> = ({
 }) => {
   return (
     <div className="lg:grid grid-cols-2 gap-x-20">
-      <div className="self-top hidden lg:block" data-aos="fade-right">
+      <div className="self-top hidden lg:block" data-aos="fade-up">
         <div
           className="bg-blizzer"
           style={{
@@ -53,7 +53,7 @@ const Branche: FunctionComponent<BrancheProps> = ({
           </div>
         </div>
       </div>
-      <div className="self-center py-8" data-aos="fade-left">
+      <div className="self-center py-8" data-aos="fade-up">
         <p className="lg:text-2xl font-bold mb-4 lg:mb-6">Blizzer für</p>
         <h2 className="text-5xl lg:text-7xl font-black mb-8">{name}</h2>
         <p className="text-sm lg:text-base mb-6">{text}</p>

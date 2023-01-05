@@ -3,13 +3,14 @@
 import "./globals.css";
 import "aos/dist/aos.css";
 
-import { Roboto } from "@next/font/google";
+import "@fontsource/roboto/500.css"; // Weight 500.
+import "@fontsource/roboto/700.css"; // Weight 500.
+import "@fontsource/roboto/900.css"; // Weight 500.
+
 import AOS from "aos";
 
 import { useEffect } from "react";
 import Footer from "../components/footer/footer";
-
-const roboto = Roboto({ weight: ["500", "700", "900"] });
 
 export default function RootLayout({
   children,
@@ -23,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <head />
-      <body className={roboto.className}>
+      <body>
         {children}
         <Footer />
       </body>
