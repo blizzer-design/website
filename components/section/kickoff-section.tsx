@@ -44,7 +44,7 @@ const KickoffSection: FunctionComponent<KickoffSectionProps> = ({}) => {
 
       <div className="mt-32 flex justify-center" data-aos="fade-up">
         <Button href="mailto:der-daniel@outlook.com">
-          Schreib mich einfach an und los geht's!
+          Schreib mich einfach an und los gehts!
         </Button>
       </div>
     </Section>
