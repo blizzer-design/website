@@ -10,8 +10,10 @@ const Footer: FunctionComponent<FooterProps> = ({}) => {
     <footer className="w-full py-32 bg-blizzer">
       <Container>
         <BlizzerLogoType />
-        <div className="flex items-center justify-between">
-          <p className="text-xl font-bold">Einfach. Geile. Websites.™</p>
+        <div className="lg:flex items-center justify-between">
+          <p className="text-xl font-bold mb-16 lg:mb-0">
+            Einfach. Geile. Websites.™
+          </p>
           <div className="flex items-center gap-x-8">
             <Link href="/impressum" className="font-bold">
               Impressum

@@ -2,15 +2,9 @@ import Image from "next/image";
 import { type FunctionComponent } from "react";
 import Logo from "../../public/blizzer-logo.svg";
 
-export type BlizzerLogoTypeProps = {
-  height?: string;
-  width?: string;
-};
+export type BlizzerLogoTypeProps = {};
 
-const BlizzerLogoType: FunctionComponent<BlizzerLogoTypeProps> = ({
-  height = "h-12",
-  width = "w-12",
-}) => {
+const BlizzerLogoType: FunctionComponent<BlizzerLogoTypeProps> = ({}) => {
   return (
     <div className="flex items-center gap-x-4 mb-10">
       <Image

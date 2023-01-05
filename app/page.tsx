@@ -38,7 +38,9 @@ export default function Home() {
                   Du verdienst eine geile Website.
                 </h1>
                 <div className="flex justify-center" data-aos="fade-up">
-                  <Button scope="header">Das sehe ich auch so!</Button>
+                  <Button href="#kickoff" scope="header">
+                    Das sehe ich auch so!
+                  </Button>
                 </div>
               </div>
             </Container>

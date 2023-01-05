@@ -1,10 +1,5 @@
-import React, {
-  ReactNode,
-  useEffect,
-  useState,
-  type FunctionComponent,
-} from "react";
 import cx from "classnames";
+import { ReactNode, useState, type FunctionComponent } from "react";
 
 export type TabsProps = {
   tabs: Array<{
@@ -15,16 +10,6 @@ export type TabsProps = {
 
 const Tabs: FunctionComponent<TabsProps> = ({ tabs }) => {
   const [selectedTab, selectTab] = useState(0);
-  const [clicked, setClicked] = useState(false);
-
-  // useEffect(() => {
-  //   if (!clicked) {
-  //     const timer = setTimeout(() => {
-  //       selectTab((selectedTab + 1) % tabs.length);
-  //     }, 4000);
-  //     return () => clearTimeout(timer);
-  //   }
-  // }, [clicked, selectedTab, selectTab, tabs]);
 
   return (
     <div className="w-full">
@@ -36,7 +21,7 @@ const Tabs: FunctionComponent<TabsProps> = ({ tabs }) => {
           <div
             key={index}
             className={cx(
-              "font-bold text-black rounded-xl px-6 py-3 cursor-pointer transition-colors",
+              "font-bold text-black rounded-2xl px-6 py-3 cursor-pointer transition-colors",
               {
                 "bg-black text-white": selectedTab === index,
                 "hover:bg-blizzer": selectedTab !== index,
@@ -44,7 +29,6 @@ const Tabs: FunctionComponent<TabsProps> = ({ tabs }) => {
             )}
             onClick={() => {
               selectTab(index);
-              setClicked(true);
             }}
           >
             {tab.name}

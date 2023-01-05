@@ -69,7 +69,7 @@ const Branche: FunctionComponent<BrancheProps> = ({
           ))}
         </ul>
         <div className="mt-12">
-          <Button>{cta}</Button>
+          <Button href="#kickoff">{cta}</Button>
         </div>
       </div>
     </div>

@@ -1,7 +1,6 @@
 import { CheckCircleIcon } from "@heroicons/react/24/solid";
 import { type FunctionComponent } from "react";
 import TypeIt from "typeit-react";
-import Button from "../button/button";
 import { Container } from "../container";
 import BlizzerLogoType from "../logo/blizzer-logotype";
 
@@ -12,8 +11,7 @@ const Header: FunctionComponent<HeaderProps> = ({}) => {
     <header className="py-16 min-h-screen h-full w-full flex items-center bg-blizzer text-black">
       <Container>
         <BlizzerLogoType />
-        <h1 className="leading-10 mb-12">
-          {/* <span className="text-3xl font-black">Blizzer</span> <br /> */}
+        <h1 className="leading-10 mb-12 lg:mb-20">
           <span className="text-4xl lg:text-8xl font-black">
             Einfach. Geile. <br />
             <TypeIt
@@ -55,24 +53,24 @@ const Header: FunctionComponent<HeaderProps> = ({}) => {
           <br />
         </h1>
         <ul className="lg:text-xl font-bold [&>li]:py-1">
-          <li className="flex items-center gap-x-3">
-            <CheckCircleIcon className="shrink-0 h-6 w-6 lg:h-8 lg:w-8 text-white bg-black rounded-full" />
+          <li className="flex items-center gap-x-2">
+            <CheckCircleIcon className="shrink-0 h-6 w-6 lg:h-8 lg:w-8 text-black" />
             Transparenter Pauschaulpreis
           </li>
-          <li className="flex items-center gap-x-3">
-            <CheckCircleIcon className="shrink-0 h-6 w-6 lg:h-8 lg:w-8 text-white bg-black rounded-full" />
+          <li className="flex items-center gap-x-2">
+            <CheckCircleIcon className="shrink-0 h-6 w-6 lg:h-8 lg:w-8 text-black" />
             Geile Designs
           </li>
-          <li className="flex items-center gap-x-3">
-            <CheckCircleIcon className="shrink-0 h-6 w-6 lg:h-8 lg:w-8 text-white bg-black rounded-full" />
+          <li className="flex items-center gap-x-2">
+            <CheckCircleIcon className="shrink-0 h-6 w-6 lg:h-8 lg:w-8 text-black" />
             Sauschnelle Ladezeiten
           </li>
-          <li className="flex items-center gap-x-3">
-            <CheckCircleIcon className="shrink-0 h-6 w-6 lg:h-8 lg:w-8 text-white bg-black rounded-full" />
+          <li className="flex items-center gap-x-2">
+            <CheckCircleIcon className="shrink-0 h-6 w-6 lg:h-8 lg:w-8 text-black" />
             Mega SEO-Rankings
           </li>
-          <li className="flex items-center gap-x-3">
-            <CheckCircleIcon className="shrink-0 h-6 w-6 lg:h-8 lg:w-8 text-white bg-black rounded-full" />
+          <li className="flex items-center gap-x-2">
+            <CheckCircleIcon className="shrink-0 h-6 w-6 lg:h-8 lg:w-8 text-black" />
             Lebenslange Wartung und Security Updates
           </li>
         </ul>

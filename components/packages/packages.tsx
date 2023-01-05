@@ -21,11 +21,10 @@ const Packages: FunctionComponent<PackagesProps> = ({ packages }) => {
   return (
     <div className="grid lg:grid-cols-3 sm:max-w-full md:max-w-[50%] lg:max-w-full mx-auto">
       <div
-        className="bg-gray-50 border border-gray-300 lg:border-r-0 rounded-xl lg:rounded-r-none lg:rounded-l-xl mt-8 mb-8 shadow-xl z-10"
+        className="bg-gray-50 border border-gray-300 lg:border-r-0 rounded-2xl lg:rounded-r-none lg:rounded-l-2xl mt-8 mb-8 shadow-xl z-10"
         data-aos="fade-up"
-        data-aos-delay="300"
       >
-        <div className="text-center bg-white rounded-t-xl px-8 py-12">
+        <div className="text-center bg-white rounded-t-2xl px-8 py-12">
           <div className="text-xl font-bold mb-2">{packages.landing.name}</div>
           <div className="text-6xl font-black">{packages.landing.price}</div>
         </div>
@@ -46,10 +45,10 @@ const Packages: FunctionComponent<PackagesProps> = ({ packages }) => {
         </div>
       </div>
       <div
-        className="bg-gray-50 border border-gray-300 rounded-xl shadow-xl z-20"
+        className="bg-gray-50 border border-gray-300 rounded-2xl shadow-xl z-20"
         data-aos="fade-up"
       >
-        <div className="text-center bg-blizzer rounded-t-xl px-8 py-12">
+        <div className="text-center bg-blizzer rounded-t-2xl px-8 py-12">
           <div className="text-xl font-bold mb-2">{packages.webiste.name}</div>
           <div className="text-6xl font-black">{packages.webiste.price}</div>
         </div>
@@ -70,11 +69,10 @@ const Packages: FunctionComponent<PackagesProps> = ({ packages }) => {
         </div>
       </div>
       <div
-        className="bg-gray-50 border border-gray-300 lg:border-l-0 rounded-xl lg:rounded-l-none lg:rounded-r-xl mt-8 mb-8 shadow-xl z-10"
+        className="bg-gray-50 border border-gray-300 lg:border-l-0 rounded-2xl lg:rounded-l-none lg:rounded-r-xl mt-8 mb-8 shadow-xl z-10"
         data-aos="fade-up"
-        data-aos-delay="300"
       >
-        <div className="text-center bg-white rounded-t-xl lg:rounded-tl-none lg:rounded-tr-xl px-8 py-12">
+        <div className="text-center bg-white rounded-t-2xl lg:rounded-tl-none lg:rounded-tr-xl px-8 py-12">
           <div className="text-xl font-bold mb-2">
             {packages.enterprise.name}
           </div>

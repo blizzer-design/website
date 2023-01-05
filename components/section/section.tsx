@@ -6,6 +6,7 @@ export type SectionProps = PropsWithChildren<{
   heading: string;
   intro: string;
   width?: "sm" | "md" | "lg" | "xl" | "2xl";
+  id?: string;
 }>;
 
 const Section: FunctionComponent<SectionProps> = ({
@@ -13,20 +14,17 @@ const Section: FunctionComponent<SectionProps> = ({
   intro,
   width = "lg",
   children,
+  id,
 }) => {
   return (
-    <section className="py-32">
+    <section id={id} className="py-32">
       <Container width={width}>
         <div className="flex justify-center mb-8" data-aos="fade-up">
           <BlizzerLogoType2 />
         </div>
 
-        {/* <p className="text-center text-xl font-bold mb-10" data-aos="fade-up">
-          Blizzer
-        </p> */}
         <h1
           className="text-5xl lg:text-8xl font-black text-center mb-8"
-          // style={{ textShadow: "-4px 6px #fcea2b" }}
           data-aos="fade-up"
         >
           {heading}
