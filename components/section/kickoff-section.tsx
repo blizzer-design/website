@@ -18,7 +18,7 @@ const KickoffSection: FunctionComponent<KickoffSectionProps> = ({}) => {
             1
           </div>
           <div className="font-bold text-lg">
-            Wir quatschen völlig kostenfrei über dein Projekt
+            Wir quatschen völlig kostenfrei über dein Projekt.
           </div>
         </div>
 
@@ -28,7 +28,7 @@ const KickoffSection: FunctionComponent<KickoffSectionProps> = ({}) => {
           </div>
           <div className="font-bold text-lg">
             In einem gemeinsamen Workshop legen wir die Roadmap für deine
-            Website fest
+            Website fest.
           </div>
         </div>
 
