@@ -1,32 +1,11 @@
-<div>Ärzte</div>
-- Alle infos
-- Integration buchungs
-
-<div>Friseure</div>
-- Alle infos
-- Integration buchungs
-- Kalender
-
-<div>Selbstständige</div>
-- Alle infos
-- Integration buchungs
-- Newsletter
-- CTA
-
-<div>Vereine</div>
-- Alle infos
-- Integration buchungs
-- Tabllenen
-
-<div>Kirchengemeinden</div>
-- Alle infos
-- Integration Kalender
-- Verwaltung Gottesdienstordnung
-
-<div>Städte</div>
-- Erreichen der Bürger
-- Integration Tools
-
-<div>Start-ups</div>
-- Newsletter
-- CTA
+              "Individuelles Design",
+              "Professionelle SEO-Optimi",
+              "Google Business Eintrag",
+              "Tool-Integration wie Kale",
+              "PageSpeed Insights Optimi",
+              "Mobile Ready",
+              "Kostenloses Hosting",
+              "Kostenlose Wartung & Secu",
+              "30 Minuten Support pro Mo",
+              "Vorlage für Impressum",
+              "Vollwertige DSGVO-Kompatibilität",

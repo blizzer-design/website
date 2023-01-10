@@ -19,7 +19,7 @@ const Section: FunctionComponent<SectionProps> = ({
   return (
     <section id={id} className="py-32">
       <Container width={width}>
-        <div className="flex justify-center mb-8" data-aos="fade-up">
+        <div className="flex justify-center mb-6" data-aos="fade-up">
           <BlizzerLogoType2 />
         </div>
 

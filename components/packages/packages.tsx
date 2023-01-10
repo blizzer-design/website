@@ -1,99 +1,85 @@
 import { CheckCircleIcon } from "@heroicons/react/24/solid";
-import React, { type FunctionComponent } from "react";
-import cx from "classnames";
+import { type FunctionComponent } from "react";
+import PackageFeatureList from "./package-feature-list";
 
-export type PackageProps = {
-  name: string;
-  price: string;
-  text: string;
-  features: Array<string>;
-};
-
-export type PackagesProps = {
-  packages: {
-    landing: PackageProps;
-    webiste: PackageProps;
-    enterprise: PackageProps;
-  };
-};
-
-const Packages: FunctionComponent<PackagesProps> = ({ packages }) => {
+const Packages: FunctionComponent = ({}) => {
   return (
     <div className="grid lg:grid-cols-3 sm:max-w-full md:max-w-[50%] lg:max-w-full mx-auto">
-      <div
+      <section
         className="bg-gray-50 border border-gray-300 lg:border-r-0 rounded-2xl lg:rounded-r-none lg:rounded-l-2xl mt-8 mb-8 shadow-xl z-10"
         data-aos="fade-up"
       >
         <div className="text-center bg-white rounded-t-2xl px-8 py-12">
-          <div className="text-xl font-bold mb-2">{packages.landing.name}</div>
-          <div className="text-6xl font-black">{packages.landing.price}</div>
+          <h1 className="text-xl font-bold mb-2">Landing page</h1>
+          <h2 className="text-6xl font-black">5.000 €</h2>
         </div>
         <div className="border-t py-12 px-8">
-          <p className="text-sm mb-8">{packages.landing.text}</p>
-          <ul className="text-sm [&>li]:py-1 mb-16">
-            {packages.landing.features.map((feature, index) => (
-              <li key={index} className="flex items-center gap-x-2">
+          <section className="mb-8">
+            <h1 className="text-sm font-bold mb-4">In diesem Paket</h1>
+            <ul className="text-sm [&>li]:py-1">
+              <li className="flex items-center gap-x-2">
                 <CheckCircleIcon
                   width={24}
                   height={24}
                   className="text-green-600"
                 />
-                {feature}
+                Landing Page
               </li>
-            ))}
-          </ul>
+            </ul>
+          </section>
+          <PackageFeatureList />
         </div>
-      </div>
-      <div
+      </section>
+      <section
         className="bg-gray-50 border border-gray-300 rounded-2xl shadow-xl z-20"
         data-aos="fade-up"
       >
         <div className="text-center bg-blizzer rounded-t-2xl px-8 py-12">
-          <div className="text-xl font-bold mb-2">{packages.webiste.name}</div>
-          <div className="text-6xl font-black">{packages.webiste.price}</div>
+          <h1 className="text-xl font-bold mb-2">Website</h1>
+          <h2 className="text-6xl font-black">8.000 €</h2>
         </div>
         <div className="py-12 px-8">
-          <p className="text-sm mb-8">{packages.webiste.text}</p>
-          <ul className="text-sm [&>li]:py-1 mb-8">
-            {packages.webiste.features.map((feature, index) => (
-              <li key={index} className="flex items-center gap-x-2">
+          <section className="mb-8">
+            <h1 className="text-sm font-bold mb-4">In diesem Paket</h1>
+            <ul className="text-sm [&>li]:py-1">
+              <li className="flex items-center gap-x-2">
                 <CheckCircleIcon
                   width={24}
                   height={24}
                   className="text-green-600"
                 />
-                {feature}
+                Landing Page + 5 Unterseiten
               </li>
-            ))}
-          </ul>
+            </ul>
+          </section>
+          <PackageFeatureList />
         </div>
-      </div>
-      <div
+      </section>
+      <section
         className="bg-gray-50 border border-gray-300 lg:border-l-0 rounded-2xl lg:rounded-l-none lg:rounded-r-xl mt-8 mb-8 shadow-xl z-10"
         data-aos="fade-up"
       >
         <div className="text-center bg-white rounded-t-2xl lg:rounded-tl-none lg:rounded-tr-xl px-8 py-12">
-          <div className="text-xl font-bold mb-2">
-            {packages.enterprise.name}
-          </div>
-          <div className="text-6xl font-black">{packages.enterprise.price}</div>
+          <h1 className="text-xl font-bold mb-2">Enterprise-Seiten ab</h1>
+          <h2 className="text-6xl font-black">12.000€</h2>
         </div>
         <div className="border-t py-12 px-8">
-          <p className="text-sm mb-8">{packages.enterprise.text}</p>
-          <ul className="text-sm [&>li]:py-1 mb-8">
-            {packages.enterprise.features.map((feature, index) => (
-              <li key={index} className="flex items-center gap-x-2">
+          <section>
+            <h1 className="text-sm font-bold mb-4">In diesem Paket</h1>
+            <ul className="text-sm [&>li]:py-1 mb-8">
+              <li className="flex items-center gap-x-2">
                 <CheckCircleIcon
                   width={24}
                   height={24}
                   className="text-green-600"
                 />
-                {feature}
+                Beliebige Seiten
               </li>
-            ))}
-          </ul>
+            </ul>
+          </section>
+          <PackageFeatureList />
         </div>
-      </div>
+      </section>
     </div>
   );
 };

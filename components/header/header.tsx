@@ -71,7 +71,11 @@ const Header: FunctionComponent<HeaderProps> = ({}) => {
           </li>
           <li className="flex items-center gap-x-2">
             <CheckCircleIcon className="shrink-0 h-6 w-6 lg:h-8 lg:w-8 text-black" />
-            Lebenslange Wartung und Security Updates
+            Lebenslang Security Updates
+          </li>
+          <li className="flex items-center gap-x-2">
+            <CheckCircleIcon className="shrink-0 h-6 w-6 lg:h-8 lg:w-8 text-black" />
+            Kostenloses Hosting
           </li>
         </ul>
       </Container>
