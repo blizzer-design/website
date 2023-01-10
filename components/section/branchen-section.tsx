@@ -17,9 +17,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
   return (
     <Section
       heading="Branchen"
-      intro="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In motu et in
-     statu corporis nihil inest, quod animadvertendum esse ipsa natura
-    iudicet?"
+      intro="Blizzer glänzt durch seinen minimalen Aufwand in der Administration vor allem dort, wo die Zeit knapp ist und die Kernkompetenz nicht Technik ist."
       width="xl"
     >
       <div>
@@ -31,12 +29,12 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Vereine"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In motu et in statu corporis nihil inest, quod animadvertendum esse ipsa natura iudicet"
+                    text="Für viele Vereine ist Digitalisierung ein akutes Thema. Mit einer geilen Vereinswebsite und dem passenden Google-Konzept, können schnell neue Mitglieder gewonnen werden."
                     features={[
-                      "Verwaltung der Teams",
+                      "Verwaltung der Abteilungen / Teams",
                       "Integration von Tabellen und Spieltagen",
                       "Eigener Kalender",
-                      "Ganz oben in Google",
+                      "Top Google-Ranking",
                       "Lebenslange Wartung und Security Updates",
                     ]}
                     cta="Jetzt Vereinsseite sichern!"
@@ -51,12 +49,12 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Selbstständige"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In motu et in statu corporis nihil inest, quod animadvertendum esse ipsa natura iudicet"
+                    text="Für Selbstständig ist die Website der wichtigste Kanal zur Außendarstellung und Kundengewunnung. Mit einem geilen Design und der richtigen SEO-Strategie sticht man spielend leicht die Konkurenz aus."
                     features={[
                       "Integration deiner Tools wie Newsletter",
-                      "CTA-Buttons",
-                      "Einzigartiges",
-                      "SEO-Optimierung",
+                      "CTA-Buttons zur Lead-Generierung",
+                      "Einzigartiges Design",
+                      "Nices SEO-Konzept",
                       "Lebenslange Wartung und Security Updates",
                     ]}
                     cta="Jetzt mehr Kunden erreichen!"
@@ -71,12 +69,12 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Friseure"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In motu et in statu corporis nihil inest, quod animadvertendum esse ipsa natura iudicet"
+                    text="Friseure müssen sich online gegen viel Konkurrenz behaupten. Hier muss schon eine geile Website her, um den Kunden bei der Google-Recherche zu überzeugen: Eine professionelle Inszenierung des Salons, gepaart mit einer Online-Terminbuchung in zwei Klicks und gewinnst neue Kunden."
                     features={[
-                      "Integration deiner Buchungssoftware",
-                      "Professioneller Internetauftritt",
-                      "Lorem",
-                      "SEO-Optimieriung",
+                      "Integration deiner Terminbuchungssoftware",
+                      "Professioneller Inzensierung des Salons",
+                      "Integration von Werbeaktionen",
+                      "Top Google-Ranking",
                       "Lebenslange Wartung und Security Updates",
                     ]}
                     cta="Jetzt Vereinsseite sichern!"
@@ -91,12 +89,12 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Ärzte"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In motu et in statu corporis nihil inest, quod animadvertendum esse ipsa natura iudicet"
+                    text="Ärzte haben vor allem eins: Keine Zeit sich um ihre Website zu kümmern. Dabei kann eine geile Website sowohl für alte als auch junge Patienten viel Mehrwert bieten. Von der Terminbuchung bis zur Online-Sprechstunde - mit Blizzer sind diese Problem gelöst."
                     features={[
-                      "Verwaltung der Teams",
-                      "Integration von Tabellen und Spieltagen",
-                      "Eigener Kalender",
-                      "Ganz oben in Google",
+                      "Integration der Terminbuchungssoftware",
+                      "Integration der Online-Sprechstundensoftware",
+                      "Professionelles Design, das Alt und Jung versteht",
+                      "Top Google-Ranking",
                       "Lebenslange Wartung und Security Updates",
                     ]}
                     cta="Jetzt Vereinsseite sichern!"
@@ -111,7 +109,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Firmen"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In motu et in statu corporis nihil inest, quod animadvertendum esse ipsa natura iudicet"
+                    text="Firmenseiten sind vor allem im Mittelstand ein großes Thema. Eine geile Website kann der entscheidende Faktor bei der Gewinnung neuer Kunden oder der Entscheidung auf dem Jobmarkt sein. "
                     features={[
                       "Verwaltung der Teams",
                       "Integration von Tabellen und Spieltagen",
@@ -131,7 +129,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Künstler"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In motu et in statu corporis nihil inest, quod animadvertendum esse ipsa natura iudicet"
+                    text="Für Künstler verdient eine Website, die so individuell wie er selbst ist. Es darf ruhig extravagant sein!"
                     features={[
                       "Verwaltung der Teams",
                       "Integration von Tabellen und Spieltagen",
@@ -151,12 +149,12 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Kirchen"
-                    text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In motu et in statu corporis nihil inest, quod animadvertendum esse ipsa natura iudicet"
+                    text="Sind wir mal ehrlich: Kennst jemand eine geile Kirchen-Website? Nicht wirklich. Dabei kann die Website gerade junge Menschen erreichen, die ein digitales Angbot in allen Bereichen den Lebens gewöhnt sind."
                     features={[
-                      "Verwaltung der Teams",
-                      "Integration von Tabellen und Spieltagen",
-                      "Eigener Kalender",
-                      "Ganz oben in Google",
+                      "Top Inszenierung der Kirche und Gemeinde",
+                      "Einfaches Abrufen zentraler Infos für die Gläubigen",
+                      "Integration interner Tools wie Kalender",
+                      "Top Google-Ranking",
                       "Lebenslange Wartung und Security Updates",
                     ]}
                     cta="Jetzt Vereinsseite sichern!"
