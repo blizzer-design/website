@@ -14,7 +14,7 @@ const KickoffSection: FunctionComponent<KickoffSectionProps> = ({}) => {
     >
       <div className="max-w-screen-sm mx-auto space-y-16">
         <div className="flex items-center gap-x-8" data-aos="fade-up">
-          <div className="shrink-0  h-16 w-16 rounded-2xl bg-blizzer flex items-center justify-center text-xl font-black">
+          <div className="shrink-0  h-16 w-16 rounded-2xl bg-blizzer flex items-center justify-center text-3xl font-black">
             1
           </div>
           <div className="font-bold text-lg">
@@ -23,7 +23,7 @@ const KickoffSection: FunctionComponent<KickoffSectionProps> = ({}) => {
         </div>
 
         <div className="flex items-center gap-x-8" data-aos="fade-up">
-          <div className="shrink-0 h-16 w-16 rounded-2xl bg-blizzer flex items-center justify-center text-xl font-black">
+          <div className="shrink-0 h-16 w-16 rounded-2xl bg-blizzer flex items-center justify-center text-3xl font-black">
             2
           </div>
           <div className="font-bold text-lg">
@@ -33,7 +33,7 @@ const KickoffSection: FunctionComponent<KickoffSectionProps> = ({}) => {
         </div>
 
         <div className="flex items-center gap-x-8" data-aos="fade-up">
-          <div className="shrink-0  h-16 w-16 rounded-2xl bg-blizzer flex items-center justify-center text-xl font-black">
+          <div className="shrink-0  h-16 w-16 rounded-2xl bg-blizzer flex items-center justify-center text-3xl font-black">
             3
           </div>
           <div className="font-bold text-lg">Wir setzen deine Website um.</div>
@@ -50,7 +50,7 @@ const KickoffSection: FunctionComponent<KickoffSectionProps> = ({}) => {
         </p>
         <div className="flex justify-center" data-aos="fade-up">
           <Button href="mailto:hallo@blizzer.design">
-            Hier gehts zur Email
+            hallo@blizzer.design
           </Button>
         </div>
       </div>

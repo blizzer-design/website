@@ -15,12 +15,10 @@ const Button: FunctionComponent<ButtonProps> = ({
     <a
       href={href}
       className={cx(
-        "max-w-max flex items-center shadow-xl font-bold py-4 lg:py-5 px-8 lg:px-10 rounded-2xl transition-colors",
+        "max-w-max flex items-center shadow-xl font-bold py-4 lg:py-5 px-8 lg:px-10 rounded-2xl hover:scale-105 hover:-rotate-1 transition-all",
         {
-          "border-4 border-black text-black lg:text-lg hover:bg-black hover:text-white":
-            scope === "header",
-          "bg-blizzer text-black lg:text-lg shadow-xl hover:bg-black hover:text-white":
-            scope === "main",
+          "border-4 border-black text-black lg:text-lg": scope === "header",
+          "bg-blizzer text-black lg:text-lg shadow-xl": scope === "main",
         }
       )}
       // style={{ boxShadow: "-6px 6px #fcea2b" }}
