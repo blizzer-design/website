@@ -1,6 +1,6 @@
 import { PropsWithChildren, type FunctionComponent } from "react";
 import { Container } from "../container";
-import BlizzerLogoType2 from "../logo/blizzer-logotype-2";
+import BlizzerLogoType from "../logo/blizzer-logotype";
 
 export type SectionProps = PropsWithChildren<{
   heading: string;
@@ -20,7 +20,7 @@ const Section: FunctionComponent<SectionProps> = ({
     <section id={id} className="py-32">
       <Container width={width}>
         <div className="flex justify-center mb-6 -ml-6" data-aos="fade-up">
-          <BlizzerLogoType2 />
+          <BlizzerLogoType />
         </div>
 
         <h1

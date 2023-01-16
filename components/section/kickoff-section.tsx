@@ -9,7 +9,7 @@ const KickoffSection: FunctionComponent<KickoffSectionProps> = ({}) => {
   return (
     <Section
       heading="Los geht's!"
-      intro="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cum autem assumpta ratío est, tanto in dominatu locatur, ut omnia illa prima naturae hulus tutelae subiciantur. Et ego: Piso, inquam, si est quisquam"
+      intro="Wenn du auch glaubt, dass du hast eine geile Website verdient hast und nicht länger warten willst, dann lass uns einfach und unkompliziert starten."
       id="kickoff"
     >
       <div className="max-w-screen-sm mx-auto space-y-16">
@@ -27,8 +27,8 @@ const KickoffSection: FunctionComponent<KickoffSectionProps> = ({}) => {
             2
           </div>
           <div className="font-bold text-lg">
-            In einem gemeinsamen Workshop legen wir die Roadmap für deine
-            Website fest.
+            In einem gemeinsamen Workshop erarbeiten wir gemeinsam die Roadmap
+            für deine Website.
           </div>
         </div>
 
@@ -36,16 +36,23 @@ const KickoffSection: FunctionComponent<KickoffSectionProps> = ({}) => {
           <div className="shrink-0  h-16 w-16 rounded-2xl bg-blizzer flex items-center justify-center text-xl font-black">
             3
           </div>
-          <div className="font-bold text-lg">
-            In regelmäßer Rücksprache setze ich deine Website um.
-          </div>
+          <div className="font-bold text-lg">Wir setzen deine Website um.</div>
         </div>
       </div>
 
-      <div className="mt-32 flex justify-center" data-aos="fade-up">
-        <Button href="mailto:der-daniel@outlook.com">
-          Schreib mich einfach an und los gehts!
-        </Button>
+      <div className="mt-32">
+        <p
+          className="text-center text-gray-600 max-w-screen-sm mx-auto mb-16"
+          data-aos="fade-up"
+        >
+          Das Eis zu brechen ist immer schwierig.😅 <br /> Schreib uns einfach
+          nur ein paar Zeilen Text und wir bringen alles in Rollen.
+        </p>
+        <div className="flex justify-center" data-aos="fade-up">
+          <Button href="mailto:der-daniel@outlook.com">
+            Hier gehts zur Email
+          </Button>
+        </div>
       </div>
     </Section>
   );

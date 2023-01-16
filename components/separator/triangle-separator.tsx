@@ -1,13 +1,11 @@
-import Image from "next/image";
-import React, { type FunctionComponent } from "react";
-import Triangle from "../../public/triangle.svg";
+import { type FunctionComponent } from "react";
 
 export type TriangleSeparatorProps = {};
 
 const TriangleSeparator: FunctionComponent<TriangleSeparatorProps> = ({}) => {
   return (
     <div
-      className="-mt-[2px] h-32 lg:h-64 w-full bg-blizzer"
+      className="-mt-[1px] h-32 lg:h-64 w-full bg-blizzer"
       style={{
         mask: 'url("/triangle.svg")',
         maskSize: "100% auto",

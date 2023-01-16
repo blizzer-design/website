@@ -19,7 +19,7 @@ const Button: FunctionComponent<ButtonProps> = ({
         {
           "border-4 border-black text-black lg:text-lg hover:bg-black hover:text-white":
             scope === "header",
-          "bg-blizzer text-black shadow-none lg:text-lg hover:bg-blizzer hover:text-black":
+          "bg-blizzer text-black lg:text-lg shadow-xl hover:bg-black hover:text-white":
             scope === "main",
         }
       )}
