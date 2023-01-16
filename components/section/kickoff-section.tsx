@@ -49,7 +49,7 @@ const KickoffSection: FunctionComponent<KickoffSectionProps> = ({}) => {
           nur ein paar Zeilen Text und wir bringen alles in Rollen.
         </p>
         <div className="flex justify-center" data-aos="fade-up">
-          <Button href="mailto:der-daniel@outlook.com">
+          <Button href="mailto:hallo@blizzer.design">
             Hier gehts zur Email
           </Button>
         </div>
