@@ -17,7 +17,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
   return (
     <Section
       heading="Branchen"
-      intro="Blizzer glänzt durch seinen minimalen Aufwand in der Administration vor allem dort, wo die Zeit knapp ist und die Kernkompetenz nicht Technik ist."
+      intro="Blizzer glänzt durch seinen minimalen Aufwand in der Administration überall dort, wo die Zeit knapp ist und die Kernkompetenz nicht Technik ist."
       width="xl"
     >
       <div>
@@ -49,7 +49,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Selbstständige"
-                    text="Für Selbstständig ist die Website der wichtigste Kanal zur Außendarstellung und Kundengewunnung. Mit einem geilen Design und der richtigen SEO-Strategie sticht man spielend leicht die Konkurenz aus."
+                    text="Für Selbstständig ist die Website der wichtigste Kanal zur Außendarstellung und Kundengewinnung. Mit einem geilen Design und der richtigen SEO-Strategie sticht man spielend leicht die Konkurrenz aus."
                     features={[
                       "Integration deiner Tools wie Newsletter",
                       "CTA-Buttons zur Lead-Generierung",
@@ -69,7 +69,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Friseure"
-                    text="Friseure müssen sich online gegen viel Konkurrenz behaupten. Hier muss schon eine geile Website her, um den Kunden bei der Google-Recherche zu überzeugen: Eine professionelle Inszenierung des Salons, gepaart mit einer Online-Terminbuchung in zwei Klicks und gewinnst neue Kunden."
+                    text="Friseure müssen sich online gegen viel Konkurrenz behaupten. Hier muss schon eine geile Website her, um den Kunden bei der Google-Recherche zu überzeugen. Wie klingt bspw. eine professionelle Inszenierung des Salons gepaart mit einer Online-Terminbuchung in zwei Klicks?"
                     features={[
                       "Integration deiner Terminbuchungssoftware",
                       "Professioneller Inzensierung des Salons",
@@ -77,7 +77,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                       "Top Google-Ranking",
                       "Lebenslange Wartung und Security Updates",
                     ]}
-                    cta="Jetzt Vereinsseite sichern!"
+                    cta="Jetzt online neu durchstarten!"
                     img={FriseureWallpaper}
                   />
                 </>
@@ -89,7 +89,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Ärzte"
-                    text="Ärzte haben vor allem eins: Keine Zeit sich um ihre Website zu kümmern. Dabei kann eine geile Website sowohl für alte als auch junge Patienten viel Mehrwert bieten. Von der Terminbuchung bis zur Online-Sprechstunde - mit Blizzer sind diese Problem gelöst."
+                    text="Ärzte haben vor allem eins: Keine Zeit, sich um ihre Website zu kümmern. Dabei kann eine geile Website sowohl für alte als auch junge Patienten viel Mehrwert bieten. Von der Terminbuchung bis zur Online-Sprechstunde - mit Blizzer sind diese Probleme gelöst."
                     features={[
                       "Integration der Terminbuchungssoftware",
                       "Integration der Online-Sprechstundensoftware",
@@ -109,7 +109,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Firmen"
-                    text="Firmenseiten sind vor allem im Mittelstand ein großes Thema. Eine geile Website kann der entscheidende Faktor bei der Gewinnung neuer Kunden oder der Entscheidung auf dem Jobmarkt sein. "
+                    text="Firmenseiten sind vor allem im Mittelstand ein großes Thema. Eine geile Website kann der entscheidende Faktor bei der Gewinnung neuer Kunden oder der Entscheidung auf dem Jobmarkt sein."
                     features={[
                       "Verwaltung der Teams",
                       "Integration von Tabellen und Spieltagen",
@@ -129,7 +129,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Künstler"
-                    text="Für Künstler verdient eine Website, die so individuell wie er selbst ist. Es darf ruhig extravagant sein!"
+                    text="Künstler verdienen eine Website, die so individuell wie sie selbst sind. Es darf ruhig extravagant sein!"
                     features={[
                       "Verwaltung der Teams",
                       "Integration von Tabellen und Spieltagen",
@@ -137,7 +137,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                       "Ganz oben in Google",
                       "Lebenslange Wartung und Security Updates",
                     ]}
-                    cta="Jetzt Vereinsseite sichern!"
+                    cta="Jetzt dein Unikat sichern!"
                     img={StaedteWallpaper}
                   />
                 </>
@@ -149,7 +149,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                 <>
                   <Branche
                     name="Kirchen"
-                    text="Sind wir mal ehrlich: Kennst jemand eine geile Kirchen-Website? Nicht wirklich. Dabei kann die Website gerade junge Menschen erreichen, die ein digitales Angbot in allen Bereichen den Lebens gewöhnt sind."
+                    text="Seien wir mal ehrlich: Kennst jemand eine geile Kirchen-Website? Nicht wirklich. Dabei kann die Website gerade junge Menschen erreichen, die ein digitales Angebot in allen Bereichen des Lebens gewöhnt sind."
                     features={[
                       "Top Inszenierung der Kirche und Gemeinde",
                       "Einfaches Abrufen zentraler Infos für die Gläubigen",
@@ -157,7 +157,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                       "Top Google-Ranking",
                       "Lebenslange Wartung und Security Updates",
                     ]}
-                    cta="Jetzt Vereinsseite sichern!"
+                    cta="Jetzt anders machen!"
                     img={KirchengemeindeWallpaper}
                   />
                 </>

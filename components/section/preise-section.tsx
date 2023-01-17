@@ -8,7 +8,7 @@ const PreiseSection: FunctionComponent<PreiseSectionProps> = ({}) => {
   return (
     <Section
       heading="Pakete"
-      intro="Alle Pakete sind transparente Pauschalpreise. Wir stimmen uns in einem Workshop über den Umfang ab und lost geht's. Es gibt keine versteckten Kosten."
+      intro="Alle Pakete sind transparente Pauschalpreise. Wir stimmen uns in einem Workshop über den Umfang ab und los geht's. Es gibt keine versteckten Kosten."
       width="xl"
     >
       <Packages />
