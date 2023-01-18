@@ -35,7 +35,13 @@ const Tabs: FunctionComponent<TabsProps> = ({ tabs }) => {
           </div>
         ))}
       </div>
-      <div className="lg:mt-24">{tabs[selectedTab].content}</div>
+      <div className="lg:mt-24">
+        {tabs.map((tab, index) => (
+          <div key={index} className={cx({ hidden: index !== selectedTab })}>
+            {tab.content}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };

@@ -9,7 +9,7 @@ import SelbststaendigeWallpaper from "../../public/selbststaendige-wallpaper.jpg
 import FriseureWallpaper from "../../public/friseure-wallpaper.jpg";
 import AerzteWallpaper from "../../public/aerzte-wallpaper.jpg";
 import FirmenWallpaper from "../../public/firmen-wallpaper.jpg";
-import StaedteWallpaper from "../../public/staedte-wallpaper.jpg";
+import KuenstlerWallpaper from "../../public/kuenstler-wallpaper.jpg";
 
 export type BranchenSectionProps = {};
 
@@ -138,7 +138,7 @@ const BranchenSection: FunctionComponent<BranchenSectionProps> = ({}) => {
                       "Lebenslange Wartung und Security Updates",
                     ]}
                     cta="Jetzt dein Unikat sichern!"
-                    img={StaedteWallpaper}
+                    img={KuenstlerWallpaper}
                   />
                 </>
               ),
