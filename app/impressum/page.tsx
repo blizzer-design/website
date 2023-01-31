@@ -40,9 +40,9 @@ export default function Home() {
               </h1>
               <a
                 className="text-xl lg:text-3xl font-bold"
-                href="mailto:blizzerdesign@gmail.com"
+                href="mailto:daniel@blizzer.design"
               >
-                blizzerdesign@gmail.com
+                daniel@blizzer.design
               </a>
             </section>
 

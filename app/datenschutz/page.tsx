@@ -190,7 +190,7 @@ export default function Home() {
                     dieser Website ist:
                     <br />
                     <br />
-                    Daniel Hitzel Telefon:
+                    Daniel Hitzel
                     <br />
                     E-Mail: daniel@blizzer.design
                     <br />
